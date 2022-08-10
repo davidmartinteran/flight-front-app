@@ -10,6 +10,10 @@ import { CustomTranslateLoader } from './shared/lang/custom-translate-loader';
 import { LangService } from './shared/lang/services/lang.service';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClientModule } from '@angular/common/http';
+import { registerLocaleData } from '@angular/common';
+import localeEs from '@angular/common/locales/es'
+
+registerLocaleData(localeEs);
 
 @NgModule({
   declarations: [
