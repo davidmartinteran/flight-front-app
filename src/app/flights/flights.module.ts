@@ -11,8 +11,6 @@ import { SharedModule } from '../shared/shared.module';
 import { PortalModule } from '../portal/portal.module';
 import { MatIconModule } from '@angular/material/icon';
 import { TranslateModule } from '@ngx-translate/core';
-import { HttpClient } from '@angular/common/http';
-import { I18nDatePipe } from '../shared/util/pipes/i18n-date.pipe';
 
 
 @NgModule({

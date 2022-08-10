@@ -22,7 +22,7 @@ const ELEMENT_DATA: Flight[] = [
     flightDuration: new Date(), connectionDuration: new Date(), aircraftType: 'Airbas'
   },
   {
-    idFlight: 3, companyName: 'Qatar Airways', flightType: 'Connecting', 
+    idFlight: 3, companyName: null, flightType: 'Connecting', 
     travelType: 'Round trip', departureDate: new Date(), departureTime: new Date(),
     arrivalDate: new Date(), arrivalTime: new Date(), backDate: new Date(),
     backTime: new Date(), departureLocation: 'Milano', arrivalLocation: 'Palermo',
