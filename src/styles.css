@@ -3,7 +3,7 @@
 fieldset#search{ 
     background: #F1F1F1; 
     border:0 none; 
-    width: 100%; 
+    width: 110.25%; 
     border-bottom: 1px solid #CCC; 
 } 
 .inline{ 
@@ -30,6 +30,172 @@ fieldset#search{
     margin-right:20px; 
     text-align:left; 
 } 
+table{
+    width: 100%;
+}
+
+#main {
+    width: 1219px;
+    float: left;
+    text-align: left;
+    margin-left: -97px;
+}
+
+#mainMargin{
+    margin-left:125px;
+}
+
+.menu{
+    overflow: hidden;
+    background: #3f51b5;
+    font-size: 16px;
+    max-width: 179px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: -38px;
+} 
+
+.menu a { 
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+#mainContainer {
+    float: left;
+    margin: 0;
+    width: 90%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.menu a:hover{
+    background: #336EFF;
+}
+
+.leftIcon{
+    margin-right: 9px;
+}
+
+#mainBanner{
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding-top: 2px;
+    width: 112%;
+    background: #3f51b5;
+    margin: 40px 0 0 2px;
+    height: 26.59px;
+}
+
+#mainBanner h3{
+    float: left;
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding-left: 8px;
+    text-align: left;
+    width: 50%;
+}
+
+#mainBanner p {
+    margin: 0;
+    float: right;
+}
+
+#mainBanner p span {
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin: -2px 0px 0px 0px;
+    padding: 2px 0px 0px 4px;
+}
+
+#mainBanner p span.expand{
+    background: #F1F1F1;
+    cursor: pointer;
+    color: #3f51b5;
+}
+
+#mainBanner p span.expand:hover{
+    background: #DDDDDD;
+}
+
+.mat-table{
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    border-spacing: 10px;
+    margin-left: 1.5px;
+}
+
+#flights .mat-header-cell {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    border-bottom: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+}
+
+#flights .mat-table .mat-header-row{
+    background: linear-gradient(0deg,rgb(117, 117, 117), #DADADA );
+    height: fit-content;
+}
+
+#flights td{
+    border-right: 1px solid #DADADA;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 0.9;
+}
+
+#flights .mat-row:hover{
+    background-color: #F7DEBE;
+}
+
+#flights tr:nth-child(even){
+    background-color: #EAF9FF;
+}
+
+table{
+    width: 111.979%;
+}
+#flights .mat-cell{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#footer{
+    display: table-row;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+body{
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+#footer .mat-toolbar span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.65em;
+    margin-top: 10px;
+}
+
+#Lang .mat-select{
+    width: 45%;
+}
+#Lang .mat-form-field{
+    text-align: center;
+}
+#Lang {
+    text-align: center;
+    width: 13%;
+    margin-bottom: -30px;
+    font-size: small;
+}
+
 html, body { height: 100%; } 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 html, body { height: 100%; }

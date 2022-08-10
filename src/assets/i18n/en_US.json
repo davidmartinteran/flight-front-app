@@ -1,0 +1,31 @@
+{
+    "searchFlightForm": {
+        "header.label" : "Search flights",
+        "companyName.label" : "Company",
+        "tripType.label" : "Trip",
+        "flight.label" : "Flight type",
+        "aircraft.label" : "Aircraft type",
+        "departingFrom.label" : "Departing from",
+        "arrivingAt.label" : "Arriving at",
+        "deparDateMin.label" : "Departing date min",
+        "deparDateMax.label" : "Departing date max",
+        "deparTimeMin.label" : "Departing time min",
+        "deparTimeMax.label" : "Departing time max",
+        "arrivDateMin.label" : "Arriving date min",
+        "arrivDateMax.label" : "Arriving date max",
+        "arrivTimeMin.label" : "Arriving time min",
+        "arrivTimeMax.label" : "Arriving time max",
+        "flightDurMin.label" : "Flight duration min",
+        "flightDurMax.label" : "Flight duration max",
+        "farMin.label" : "Fare min",
+        "farMax.label" : "Fare max",
+        "backDateMin.label": "Back date min",
+        "backDateMax.label" : "Back date max",
+        "backTimeMin.label" : "Back time min",
+        "backTimeMax.label" : "Back time max",
+        "connectDurMin.label" : "Connection duration min",
+        "connectDurMax.label" : "Connection duration max",
+        "searchButton.label" : "Find a flight",
+        "cancelButton.label" : "Cancel"
+    }
+}

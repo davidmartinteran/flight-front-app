@@ -1,0 +1,24 @@
+<div id="mainContainer">
+    <app-left-side></app-left-side>
+    <div id="mainMargin">
+        <div id="main">
+            <div id="mainBanner">
+                <h3>{{ 'searchFlightForm.header.label' | translate }}</h3>
+                <p>
+                    <span class="expand" (click)="hideSearchForm()">
+                        <mat-icon *ngIf="isHiddenSearch">expand_more</mat-icon>
+                        <mat-icon *ngIf="!isHiddenSearch">expand_less</mat-icon>
+                    </span>
+                </p>
+            </div>
+            <div [ngStyle]="{'display': isHiddenSearch ? 'none':'inherit'}">
+                <app-search-form></app-search-form>
+            </div>
+            
+            <app-flights-list></app-flights-list>
+        </div>
+    </div>
+</div>
+<app-bot-side></app-bot-side>
+
+

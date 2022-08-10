@@ -1,0 +1,31 @@
+{
+    "searchFlightForm": {
+        "header.label" : "Busca un vuelo",
+        "companyName.label" : "Compañía",
+        "tripType.label" : "Viaje",
+        "flight.label" : "Tipo de vuelo",
+        "aircraft.label" : "Tipo de avión",
+        "departingFrom.label" : "Salida desde",
+        "arrivingAt.label" : "Llegada a",
+        "deparDateMin.label" : "Fecha de salida min",
+        "deparDateMax.label" : "Fecha de salida max",
+        "deparTimeMin.label" : "Hora de salida min",
+        "deparTimeMax.label" : "Hora de salida maxº",
+        "arrivDateMin.label" : "Fecha de llegada min",
+        "arrivDateMax.label" : "Fecha de llegada max",
+        "arrivTimeMin.label" : "Hora de llegada min",
+        "arrivTimeMax.label" : "Hora de llegada max",
+        "flightDurMin.label" : "Duración del vuelo min",
+        "flightDurMax.label" : "Duración del vuelo max",
+        "farMin.label" : "Tarifa min",
+        "farMax.label" : "Tarifa max",
+        "backDateMin.label": "Fecha de regreso min",
+        "backDateMax.label" : "Fecha de regreso max",
+        "backTimeMin.label" : "Hora de regreso min",
+        "backTimeMax.label" : "Hora de regreso max",
+        "connectDurMin.label" : "Duración del trasbordo min",
+        "connectDurMax.label" : "Duración del trasbordo max",
+        "searchButton.label" : "Encuentra un vuelo",
+        "cancelButton.label" : "Cancelar"
+    }
+}
